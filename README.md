@@ -18,13 +18,17 @@ The profile I use is DS1220 (RW) to read/program the DS1742W-120 due to DS1220 h
 Don't worry about difference VCC of DS1742W (3.3v) and DS1120 (5.0v), as from the datasheet, it still with in spec of DS1742W.
 
 ![MiniPro TL866 setting 1](./resources/MiniPro_TL866_DS1742W_setting_1.png)
+
 ![MiniPro TL866 setting 2](./resources/MiniPro_TL866_DS1742W_setting_2.png)
+
 **[MiniPro TL866 setting]**
 
 ![DS1742W-120 orentation](./resources/DS1742W_orentation.jpg)
+
 **[DS1742W-120 orentation]**
 
 DS1220 datasheet: https://datasheets.maximintegrated.com/en/ds/DS1220AB-DS1220AD.pdf
+
 DS1742 datasheet: https://datasheets.maximintegrated.com/en/ds/DS1742.pdf
 
 After you program the new DS1742W-120 using the image I have backup from the new Interface Board ([IP53_WKSTN_INTFC_DS1742W-120_030-1881-007_RevA.BIN](../master/Tezro/IP53_WKSTN_INTFC_DS1742W-120_030-1881-007_RevA.BIN)) and put the programmed DS1742W-120 to your SGI Tezro.
@@ -40,6 +44,7 @@ If you can't enter L1, boot in to IRIX and use this command in root user (or usi
 Where P1006969 is your serial number at the back of your Tezro, then reset L1 or restart Tezro completely (shutdown and pull the plug out).
 
 ![Setting serial number](./resources/set_serial.jpg)
+
 **[Setting serial number]**
 
 No more "no system serial number assigned" error message at the front LCD display anymore :D

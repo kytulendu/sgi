@@ -1,0 +1,147 @@
+khral@JORMAG % hinv
+4 800 MHZ IP35 Processors
+CPU: MIPS R16000 Processor Chip Revision: 2.2
+FPU: MIPS R16010 Floating Point Chip Revision: 2.2
+Main memory size: 3072 Mbytes
+Instruction cache size: 32 Kbytes
+Data cache size: 32 Kbytes
+Secondary unified instruction/data cache size: 4 Mbytes
+Integral SCSI controller 3: Version Fibre Channel QL2342 Port 1
+Integral SCSI controller 4: Version Fibre Channel QL2342 Port 2
+Integral SCSI controller 2: Version IDE (ATA/ATAPI) IOC4
+  CDROM: unit 0 on SCSI controller 2
+Integral SCSI controller 0: Version QL12160, low voltage differential
+  Disk drive: unit 1 on SCSI controller 0
+  Disk drive: unit 2 on SCSI controller 0
+Integral SCSI controller 1: Version QL12160, low voltage differential
+IOC3/IOC4 serial port: tty3
+IOC3/IOC4 serial port: tty4
+IOC3/IOC4 serial port: tty5
+IOC3/IOC4 serial port: tty6
+Graphics board: V12
+Integral Gigabit Ethernet: tg0, module 001c01, PCI bus 1 slot 4
+Gigabit Ethernet: tg1, module 001c01, PCI bus 2 slot 3
+Iris Audio Processor: version MAD revision 1, number 1
+Iris Audio Processor: version RAD revision 13.0, number 1
+XT-DIGVID Multi-standard Digital Video: controller 0, unit 0, version 0x0
+IOC3/IOC4 external interrupts: 1
+Dual Channel Display
+
+khral@JORMAG % /usr/gfx/gfxinfo
+Graphics board 0 is "ODYSSEY" graphics.
+	Managed (":0.0") 1600x1024 
+	BUZZ version B.2
+	PB&J version 1
+	128MB memory
+		Banks: 4, CAS latency: 3
+	 Monitor 0 type: Unknown
+	Dual Channel Display option
+	 Monitor 1 type: HWP 12432	 Monitor 2 type: Unknown
+	Channel 0:
+	 Origin = (0,0)
+	 Video Output: 1600 pixels, 1024 lines, 60.00Hz (1600x1024_60_ds)
+
+khral@JORMAG % glxinfo
+display: :0.0
+server glx vendor string: SGI
+server glx version string: 1.3 Irix 6.5
+server glx extensions (GLX_):
+    EXT_import_context, EXT_visual_info, EXT_visual_rating,
+    SGI_make_current_read, SGI_swap_control, SGI_video_sync, SGIX_fbconfig,
+    SGIX_hyperpipe, SGIX_pbuffer, SGIX_swap_barrier, SGIX_swap_group.
+client glx version 1.3
+client glx extensions (GLX_):
+    EXT_import_context, EXT_visual_info, EXT_visual_rating,
+    SGI_make_current_read, SGI_swap_control, SGI_video_sync, SGIX_fbconfig,
+    SGIX_hyperpipe, SGIX_pbuffer, SGIX_swap_barrier, SGIX_swap_group.
+OpenGL vendor string: SGI
+OpenGL renderer string: VPRO/B/128
+OpenGL version string: 1.2 Irix 6.5
+OpenGL extensions (GL_):
+    ARB_imaging, EXT_abgr, EXT_blend_color, EXT_blend_logic_op,
+    EXT_blend_minmax, EXT_blend_subtract, EXT_convolution, EXT_copy_texture,
+    EXT_histogram, EXT_packed_pixels, EXT_polygon_offset, EXT_subtexture,
+    EXT_texture, EXT_texture3D, EXT_texture_env_add, EXT_texture_object,
+    EXT_vertex_array, INGR_interlace_read, SGI_color_matrix, SGI_color_table,
+    SGI_texture_color_table, SGIS_detail_texture, SGIS_fog_function,
+    SGIS_pixel_texture, SGIS_texture_border_clamp, SGIS_texture_color_mask,
+    SGIS_texture_edge_clamp, SGIS_texture_lod, SGIX_async, SGIX_async_pixel,
+    SGIX_blend_alpha_minmax, SGIX_convolution_accuracy, SGIX_fog_offset,
+    SGIX_fragment_lighting, SGIX_interlace, SGIX_list_priority, SGIX_resample,
+    SGIX_scalebias_hint, SGIX_subsample, SGIX_texture_coordinate_clamp,
+    SGIX_texture_lod_bias, SGIX_texture_scale_bias, SGIX_vertex_preclip.
+glu version: 1.3 Irix 6.5
+glu extensions (GLU_):
+    EXT_abgr, EXT_nurbs_tessellator, EXT_object_space_tess, EXT_packed_pixels,
+    EXT_texture.
+
+   visual  x  bf lv rg d st  r  g  b a  ax dp st accum buffs  ms 
+ id dep cl sp sz l  ci b ro sz sz sz sz bf th cl  r  g  b  a ns b
+-----------------------------------------------------------------
+0x20  8 pc  .  8  . c  .  .  .  .  .  .  . 24  .  .  .  .  .  . .
+0x21  8 pc  .  8  . c  y  .  .  .  .  .  . 24  .  .  .  .  .  . .
+0x23  8 pc  y  8  1 c  .  .  .  .  .  .  .  .  .  .  .  .  .  . .
+0x24  8 pc  .  8  1 c  .  .  .  .  .  .  .  .  .  .  .  .  .  . .
+0x25  8 pc  .  8  . r  y  .  8  .  .  .  . 24  .  .  .  .  .  . .
+0x26  8 pc  .  8  . r  y  .  8  .  .  8  . 24  .  .  .  .  .  . .
+0x27  8 pc  .  8  . r  y  .  8  .  .  8  . 24  8  .  .  .  .  . .
+0x28  8 pc  .  8  . c  y  y  .  .  .  .  . 24  .  .  .  .  .  . .
+0x29  8 pc  .  8  . c  y  y  .  .  .  .  . 24  8  .  .  .  .  . .
+0x2a  8 pc  .  8  . r  y  y  8  .  .  .  . 24  .  .  .  .  .  . .
+0x2b  8 pc  .  8  . r  y  y  8  .  .  8  . 24  .  .  .  .  .  . .
+0x2c 12 pc  . 12  . c  .  .  .  .  .  .  . 24  .  .  .  .  .  . .
+0x2d 12 pc  . 12  . c  .  .  .  .  .  .  . 24  8  .  .  .  .  . .
+0x2e 12 pc  . 12  . c  y  .  .  .  .  .  . 24  .  .  .  .  .  . .
+0x2f 12 pc  . 12  . c  y  .  .  .  .  .  . 24  8  .  .  .  .  . .
+0x30 12 pc  . 12  . c  y  y  .  .  .  .  . 24  .  .  .  .  .  . .
+0x31 12 pc  . 12  . c  y  y  .  .  .  .  . 24  8  .  .  .  .  . .
+0x32 12 pc  . 12  . r  y  . 12  .  .  .  . 24  .  .  .  .  .  . .
+0x33 12 pc  . 12  . r  y  y 12  .  .  .  . 24  .  .  .  .  .  . .
+0x34 12 pc  . 12  . r  .  . 12  .  . 12  . 24  .  .  .  .  .  . .
+0x35 12 pc  . 12  . r  .  . 12  .  . 12  . 24  8  .  .  .  .  . .
+0x36 12 pc  . 12  . r  y  . 12  .  . 12  . 24  .  .  .  .  .  . .
+0x37 12 pc  . 12  . r  y  . 12  .  . 12  . 24  8  .  .  .  .  . .
+0x38 12 tc  . 16  . r  y  .  4  4  4  4  . 24  . 16 16 16 16  . .
+0x39 12 tc  . 16  . r  y  .  4  4  4  4  . 24  8 16 16 16 16  . .
+0x3a 12 tc  . 16  . r  y  y  4  4  4  4  . 24  . 16 16 16 16  . .
+0x3b 12 tc  . 16  . r  y  y  4  4  4  4  . 24  8 16 16 16 16  . .
+0x3c 15 tc  . 16  . r  y  .  5  5  5  1  . 24  . 16 16 16 16  . .
+0x3d 15 tc  . 16  . r  y  .  5  5  5  1  . 24  8 16 16 16 16  . .
+0x3e 15 tc  . 16  . r  y  y  5  5  5  1  . 24  . 16 16 16 16  . .
+-----------------------------------------------------------------
+ id dep cl xp bs lv rg d st rb gb bb ab ax dp st ar ag ab aa ms,b
+-----------------------------------------------------------------
+0x3f 15 tc  . 16  . r  y  y  5  5  5  1  . 24  8 16 16 16 16  . .
+0x40 24 tc  . 32  . r  .  .  8  8  8  8  . 24  . 16 16 16 16  . .
+0x41 24 tc  . 32  . r  .  .  8  8  8  8  . 24  8 16 16 16 16  . .
+0x42 24 tc  . 32  . r  y  .  8  8  8  8  . 24  . 16 16 16 16  . .
+0x43 24 tc  . 32  . r  y  .  8  8  8  8  . 24  8 16 16 16 16  . .
+0x45 30 tc  . 32  . r  .  . 10 10 10  2  . 24  . 16 16 16 16  . .
+0x46 30 tc  . 32  . r  .  . 10 10 10  2  . 24  8 16 16 16 16  . .
+0x47 30 tc  . 32  . r  y  . 10 10 10  2  . 24  . 16 16 16 16  . .
+0x48 30 tc  . 32  . r  y  . 10 10 10  2  . 24  8 16 16 16 16  . .
+0x49 30 tc  . 48  . r  .  . 12 12 12 12  .  .  . 16 16 16 16  . .
+0x4a 30 tc  . 48  . r  .  . 12 12 12 12  . 16  . 16 16 16 16  . .
+0x4b 30 tc  . 48  . r  y  . 12 12 12 12  . 16  . 16 16 16 16  . .
+  -1 -1 ??  . 16  . r  y  .  4  4  4  4  . 24  . 24 24 24 24  . .
+  -1 -1 ??  . 16  . r  y  .  4  4  4  4  . 24  8 24 24 24 24  . .
+  -1 -1 ??  . 16  . r  y  y  4  4  4  4  . 24  . 24 24 24 24  . .
+  -1 -1 ??  . 16  . r  y  y  4  4  4  4  . 24  8 24 24 24 24  . .
+  -1 -1 ??  . 16  . r  y  .  5  5  5  1  . 24  . 24 24 24 24  . .
+  -1 -1 ??  . 16  . r  y  .  5  5  5  1  . 24  8 24 24 24 24  . .
+  -1 -1 ??  . 16  . r  y  y  5  5  5  1  . 24  . 24 24 24 24  . .
+  -1 -1 ??  . 16  . r  y  y  5  5  5  1  . 24  8 24 24 24 24  . .
+  -1 -1 ??  . 32  . r  .  .  8  8  8  8  . 24  . 24 24 24 24  . .
+  -1 -1 ??  . 32  . r  .  .  8  8  8  8  . 24  8 24 24 24 24  . .
+  -1 -1 ??  . 32  . r  y  .  8  8  8  8  . 24  . 24 24 24 24  . .
+  -1 -1 ??  . 32  . r  y  .  8  8  8  8  . 24  8 24 24 24 24  . .
+  -1 -1 ??  . 32  . r  .  . 10 10 10  2  . 24  . 24 24 24 24  . .
+  -1 -1 ??  . 32  . r  .  . 10 10 10  2  . 24  8 24 24 24 24  . .
+  -1 -1 ??  . 32  . r  y  . 10 10 10  2  . 24  . 24 24 24 24  . .
+  -1 -1 ??  . 32  . r  y  . 10 10 10  2  . 24  8 24 24 24 24  . .
+  -1 -1 ??  . 48  . r  .  . 12 12 12 12  .  .  . 24 24 24 24  . .
+  -1 -1 ??  . 48  . r  .  . 12 12 12 12  . 16  . 24 24 24 24  . .
+-----------------------------------------------------------------
+ id dep cl xp bs lv rg d st rb gb bb ab ax dp st ar ag ab aa ms,b
+-----------------------------------------------------------------
+  -1 -1 ??  . 48  . r  y  . 12 12 12 12  . 16  . 24 24 24 24  . .

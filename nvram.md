@@ -1,4 +1,5 @@
-# SGI Tezro NVRAM
+SGI Tezro NVRAM
+===============
 Once upon a time, I have "accidentally" render my Tezro not turn on with "no system serial number assigned" error message at the front LCD display, after I gutted the battery out of the Dallas DS1742W-120 RTC/NVRAM and replace it with typical CR2032 socketed battery that use in PC, thinking it would fix annoying clock reset every time I turn the Tezro off.
 
 And worst, I can't use null-modem cable to try to set the serial number through L1 no matter what I try, due to my Tezro's Interface Board have broken L1 console port for some reasons (the L1 operate normally and output message about VRMs, but can't enter L1).

@@ -1,4 +1,5 @@
-# Alias|Wavefront The Advanced Visualizer notes
+Alias|Wavefront The Advanced Visualizer notes
+=============================================
 
 ![TAV 4.2.1 running on SGI Indigo2 R4400 250Mhz with GU1-Extreme graphic card, IRIX 6.5.22](./resources/TAV_4.2.1.jpg)
 TAV 4.2.1 running on SGI Indigo2 R4400 250Mhz with GU1-Extreme graphic card, IRIX 6.5.22
@@ -18,9 +19,8 @@ Be minded, if the model is high/very high poly model, even if the model fit with
 The lastest release of TAV is version 4.3.2 according to qualified hardware list on old Alias|Wavefront website
 [MediaStudio 4.3.2 Qualification Chart](https://web.archive.org/web/20030622235814/http://www.aliaswavefront.com/en/Community/Support/qualified_hardware/QUAL/ms_4.3.2.html)
 
-----------
-
-# Getting TAV 4.2.1 to run on IRIX 6.5.22
+Getting TAV 4.2.1 to run on IRIX 6.5.22
+---------------------------------------
 
 This is how I get it to work on my Indigo2 with IRIX 6.5.22, I don't remember what I have edited, other than /usr/aw/COM/setup/auto_env that i'm pretty sure it haven't been modified (or not) so I'm typing the content of almost every startup scripts of TAV on my Indigo2 below.
 
@@ -84,9 +84,8 @@ You must run TAV from this script, else Model and PreView will hang at startup.
 /usr/sbin/xwsh -geometry 80x24+529+680 -iconic -title Director -icontitle Director -e $WF_AV_DIR/bin/director
 ```
 
-----------
-
-# TAV manuals
+TAV manuals
+-----------
 
 There is few documentation or tutorial of this software exist online :<
 If you have TAV manual or training VHS, please consider scan/digitize it and upload it to archive.org.

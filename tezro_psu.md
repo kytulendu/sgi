@@ -7,6 +7,10 @@ So, technically we can put quality modern PSU in to SGI Tezro with some cable mo
 
 My SGI Tezro with Cougar GX 1050W 80 PLUS Gold ATX PSU
 
+![Self made SGI Tezro ATX PSU adaptor cable](./resources/Tezro_ATX_adaptor.jpg)
+
+Self made SGI Tezro ATX PSU adaptor cable
+
 DELTA DPS-550BB E Specs
 -----------------------
 

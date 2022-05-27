@@ -1,0 +1,95 @@
+khral@ZHAITAN % hinv
+CPU: MIPS R5000 Processor Chip Revision: 10.0
+FPU: MIPS R5000 Floating Point Coprocessor Revision: 10.0
+1 300 MHZ IP32 Processor
+Main memory size: 576 Mbytes
+Secondary unified instruction/data cache size: 1 Mbyte on Processor 0
+Instruction cache size: 32 Kbytes
+Data cache size: 32 Kbytes
+FLASH PROM version 4.18
+Integral SCSI controller 0: Version ADAPTEC 7880
+  Disk drive: unit 1 on SCSI controller 0
+  Disk drive: unit 2 on SCSI controller 0
+Integral SCSI controller 1: Version ADAPTEC 7880
+On-board serial ports: tty1
+On-board serial ports: tty2
+On-board EPP/ECP parallel port
+CRM graphics installed
+Integral Ethernet: ec0, version 1
+Iris Audio Processor: version A3 revision 0
+Video: MVP unit 0 version 1.4
+AV: AV1 Card version 1, Camera not connected.
+Vice: TRE
+
+khral@ZHAITAN % /usr/gfx/gfxinfo
+Graphics board 0 is "CRM" graphics.
+	Managed (":0.0") 1280x1024 
+	32 bitplanes
+	board revision 2, CRM revision C, GBE revision B
+	 Monitor 0 type: DEL -24544
+	Channel 0:
+	 Origin = (0,0)
+	 Video Output: 1280 pixels, 1024 lines, 75.03Hz (1280x1024_75)
+
+khral@ZHAITAN % gfxinfo
+display: :0.0
+server glx vendor string: SGI
+server glx version string: 1.3 Irix 6.5
+server glx extensions (GLX_):
+    EXT_import_context, EXT_visual_info, EXT_visual_rating,
+    SGI_make_current_read, SGI_swap_control, SGI_video_sync, SGIX_dm_pbuffer,
+    SGIX_fbconfig, SGIX_pbuffer, SGIX_swap_group.
+client glx version 1.3
+client glx extensions (GLX_):
+    EXT_import_context, EXT_visual_info, EXT_visual_rating,
+    SGI_make_current_read, SGI_swap_control, SGI_video_sync, SGIX_dm_pbuffer,
+    SGIX_fbconfig, SGIX_pbuffer, SGIX_swap_group.
+OpenGL vendor string: SGI
+OpenGL renderer string: CRIME
+OpenGL version string: 1.1 Irix 6.5
+OpenGL extensions (GL_):
+    EXT_abgr, EXT_blend_color, EXT_blend_logic_op, EXT_blend_minmax,
+    EXT_blend_subtract, EXT_convolution, EXT_copy_texture, EXT_histogram,
+    EXT_packed_pixels, EXT_polygon_offset, EXT_subtexture, EXT_texture,
+    EXT_texture3D, EXT_texture_object, EXT_vertex_array, INGR_interlace_read,
+    SGI_color_matrix, SGI_color_table, SGI_texture_color_table,
+    SGIS_texture_color_mask, SGIS_texture_edge_clamp, SGIX_interlace,
+    SGIX_texture_scale_bias.
+glu version: 1.3 Irix 6.5
+glu extensions (GLU_):
+    EXT_abgr, EXT_nurbs_tessellator, EXT_object_space_tess, EXT_packed_pixels,
+    EXT_texture.
+
+   visual  x  bf lv rg d st  r  g  b a  ax dp st accum buffs  ms 
+ id dep cl sp sz l  ci b ro sz sz sz sz bf th cl  r  g  b  a ns b
+-----------------------------------------------------------------
+0x20  8 pc  .  8  . c  .  .  .  .  .  .  .  .  .  .  .  .  .  . .
+0x21  8 pc  .  8  . c  .  .  .  .  .  .  . 24  8  .  .  .  .  . .
+0x23  8 tc  .  8  . r  .  .  3  3  2  .  .  .  . 16 16 16 16  . .
+0x24  8 tc  .  8  . r  .  .  3  3  2  .  . 24  8 16 16 16 16  . .
+0x25  8 pc  y  8  1 c  .  .  .  .  .  .  .  .  .  .  .  .  .  . .
+0x26 12 pc  . 12  . c  .  .  .  .  .  .  .  .  .  .  .  .  .  . .
+0x27 12 pc  . 12  . c  .  .  .  .  .  .  . 24  8  .  .  .  .  . .
+0x28 12 pc  . 12  . c  y  .  .  .  .  .  .  .  .  .  .  .  .  . .
+0x29 12 pc  . 12  . c  y  .  .  .  .  .  . 24  8  .  .  .  .  . .
+0x2a 12 pc  . 12  . c  .  y  .  .  .  .  .  .  .  .  .  .  .  . .
+0x2b 12 pc  . 12  . c  .  y  .  .  .  .  . 24  8  .  .  .  .  . .
+0x2c 15 tc  . 15  . r  .  .  5  5  5  .  .  .  . 16 16 16 16  . .
+0x2d 15 tc  . 16  . r  .  .  5  5  5  1  .  .  . 16 16 16 16  . .
+0x2e 15 tc  . 15  . r  .  .  5  5  5  .  . 24  8 16 16 16 16  . .
+0x2f 15 tc  . 16  . r  .  .  5  5  5  1  . 24  8 16 16 16 16  . .
+0x30 15 tc  . 15  . r  y  .  5  5  5  .  .  .  . 16 16 16 16  . .
+0x31 15 tc  . 15  . r  y  .  5  5  5  .  . 24  8 16 16 16 16  . .
+0x32 15 tc  . 16  . r  .  y  5  5  5  1  .  .  . 16 16 16 16  . .
+0x33 15 tc  . 16  . r  .  y  5  5  5  1  . 24  8 16 16 16 16  . .
+0x35 24 tc  . 24  . r  .  .  8  8  8  .  .  .  . 16 16 16 16  . .
+0x36 24 tc  . 24  . r  .  .  8  8  8  .  . 24  8 16 16 16 16  . .
+0x37 24 tc  . 32  . r  .  .  8  8  8  8  .  .  . 16 16 16 16  . .
+0x38 24 tc  . 32  . r  .  .  8  8  8  8  . 24  8 16 16 16 16  . .
+  -1 -1 ??  .  8  . r  .  .  8  .  .  .  .  .  .  .  .  .  .  . .
+  -1 -1 ??  . 16  . r  .  . 16  .  .  .  .  .  .  .  .  .  .  . .
+  -1 -1 ??  . 64  . r  .  . 16 16 16 16  .  .  .  .  .  .  .  . .
+-----------------------------------------------------------------
+   visual  x  bf lv rg d st  r  g  b a  ax dp st accum buffs  ms 
+ id dep cl sp sz l  ci b ro sz sz sz sz bf th cl  r  g  b  a ns b
+-----------------------------------------------------------------

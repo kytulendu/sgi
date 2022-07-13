@@ -115,7 +115,7 @@ mkdir build && cd build
 
 # change to -march=mips3 or -march=mips4 to match your machine
 cmake \
-    -DCMAKE_EXE_LINKER_FLAGS:STRING="-lmoviefile -lmovieplay -ldmedia -lGL -lGLcore -lX11 -ldl -lpthread -lWl,--allow-shlib-undefined" \
+    -DCMAKE_EXE_LINKER_FLAGS:STRING="-lmoviefile -lmovieplay -ldmedia -lGL -lGLcore -lX11 -ldl -lpthread -Wl,--allow-shlib-undefined" \
     -DCMAKE_CXX_FLAGS:STRING="-O2 -march=mips4 -fcommon -fpermissive" \
     -DCMAKE_C_FLAGS:STRING="-O2 -march=mips4 -fcommon" \
     -DPYTHON_EXECUTABLE:PATH=/usr/sgug/bin/python2 \

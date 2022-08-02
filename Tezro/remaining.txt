@@ -1,0 +1,11 @@
+IP53_4CPU
+=========
+- AMD L642DU12RI 128 Megabit (8 M x 16-Bit) Flash memory
+
+IP53_WKSTN_INTFC
+================
+- AM29LV160D1-120EC
+
+SNOWBALL_EDG
+============
+- Dallas 6 pin chip A7E2 near J2

@@ -1,0 +1,7 @@
+For O2 RM7000 600MHz CPU mod, use for XC1765ELS08C.
+Can use Xeltek Superpro 610P Universal Programmer to program this chip.
+
+Both 7000c_600.bin and 7000c_600.mcs have same content, just in differnce data format.
+
+ROM image is from http://sgidepot.co.uk/depot/
+See this page for instructions http://sgidepot.co.uk/o2cpumod.html

@@ -1,6 +1,6 @@
 IP53_4CPU
 =========
-- AMD L642DU12RI 128 Megabit (8 M x 16-Bit) Flash memory
+- AMD L642DU12RI 128 Megabit (8 M x 16-Bit) Flash memory, BGA
 
 IP53_WKSTN_INTFC
 ================
@@ -8,4 +8,4 @@ IP53_WKSTN_INTFC
 
 SNOWBALL_EDG
 ============
-- Dallas 6 pin chip A7E2 near J2
+- Dallas DS2505, 6 pin chip at A7E2 near J2

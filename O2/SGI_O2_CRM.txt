@@ -11,6 +11,7 @@ Integral SCSI controller 0: Version ADAPTEC 7880
   Disk drive: unit 1 on SCSI controller 0
   Disk drive: unit 2 on SCSI controller 0
 Integral SCSI controller 1: Version ADAPTEC 7880
+  Disk drive: unit 2 on SCSI controller 1
 On-board serial ports: tty1
 On-board serial ports: tty2
 On-board EPP/ECP parallel port
@@ -24,15 +25,15 @@ Vice: TRE
 khral@ZHAITAN % /usr/gfx/gfxinfo
 Graphics board 0 is "CRM" graphics.
 	Managed (":0.0") 1280x1024 
-	32 bitplanes
+	32 + 32 bitplanes
 	board revision 2, CRM revision C, GBE revision B
 	 Monitor 0 type: DEL -24544
 	Channel 0:
 	 Origin = (0,0)
-	 Video Output: 1280 pixels, 1024 lines, 75.03Hz (1280x1024_75)
+	 Video Output: 1280 pixels, 1024 lines, 59.94Hz (1280x1024_60)
 
-khral@ZHAITAN % gfxinfo
-display: :0.0
+khral@ZHAITAN % glxinfo
+display: :0
 server glx vendor string: SGI
 server glx version string: 1.3 Irix 6.5
 server glx extensions (GLX_):
@@ -72,20 +73,22 @@ glu extensions (GLU_):
 0x27 12 pc  . 12  . c  .  .  .  .  .  .  . 24  8  .  .  .  .  . .
 0x28 12 pc  . 12  . c  y  .  .  .  .  .  .  .  .  .  .  .  .  . .
 0x29 12 pc  . 12  . c  y  .  .  .  .  .  . 24  8  .  .  .  .  . .
-0x2a 12 pc  . 12  . c  .  y  .  .  .  .  .  .  .  .  .  .  .  . .
-0x2b 12 pc  . 12  . c  .  y  .  .  .  .  . 24  8  .  .  .  .  . .
+0x2a 12 pc  . 12  . c  y  y  .  .  .  .  .  .  .  .  .  .  .  . .
+0x2b 12 pc  . 12  . c  y  y  .  .  .  .  . 24  8  .  .  .  .  . .
 0x2c 15 tc  . 15  . r  .  .  5  5  5  .  .  .  . 16 16 16 16  . .
 0x2d 15 tc  . 16  . r  .  .  5  5  5  1  .  .  . 16 16 16 16  . .
 0x2e 15 tc  . 15  . r  .  .  5  5  5  .  . 24  8 16 16 16 16  . .
 0x2f 15 tc  . 16  . r  .  .  5  5  5  1  . 24  8 16 16 16 16  . .
-0x30 15 tc  . 15  . r  y  .  5  5  5  .  .  .  . 16 16 16 16  . .
-0x31 15 tc  . 15  . r  y  .  5  5  5  .  . 24  8 16 16 16 16  . .
-0x32 15 tc  . 16  . r  .  y  5  5  5  1  .  .  . 16 16 16 16  . .
-0x33 15 tc  . 16  . r  .  y  5  5  5  1  . 24  8 16 16 16 16  . .
-0x35 24 tc  . 24  . r  .  .  8  8  8  .  .  .  . 16 16 16 16  . .
-0x36 24 tc  . 24  . r  .  .  8  8  8  .  . 24  8 16 16 16 16  . .
-0x37 24 tc  . 32  . r  .  .  8  8  8  8  .  .  . 16 16 16 16  . .
-0x38 24 tc  . 32  . r  .  .  8  8  8  8  . 24  8 16 16 16 16  . .
+0x30 15 tc  . 16  . r  y  y  5  5  5  1  .  .  . 16 16 16 16  . .
+0x31 15 tc  . 16  . r  y  y  5  5  5  1  . 24  8 16 16 16 16  . .
+0x33 24 tc  . 24  . r  .  .  8  8  8  .  .  .  . 16 16 16 16  . .
+0x34 24 tc  . 24  . r  .  .  8  8  8  .  . 24  8 16 16 16 16  . .
+0x35 24 tc  . 32  . r  .  .  8  8  8  8  .  .  . 16 16 16 16  . .
+0x36 24 tc  . 32  . r  .  .  8  8  8  8  . 24  8 16 16 16 16  . .
+0x38 24 tc  . 24  . r  y  .  8  8  8  .  .  .  . 16 16 16 16  . .
+0x39 24 tc  . 24  . r  y  .  8  8  8  .  . 24  8 16 16 16 16  . .
+0x3a 24 tc  . 32  . r  y  .  8  8  8  8  .  .  . 16 16 16 16  . .
+0x3b 24 tc  . 32  . r  y  .  8  8  8  8  . 24  8 16 16 16 16  . .
   -1 -1 ??  .  8  . r  .  .  8  .  .  .  .  .  .  .  .  .  .  . .
   -1 -1 ??  . 16  . r  .  . 16  .  .  .  .  .  .  .  .  .  .  . .
   -1 -1 ??  . 64  . r  .  . 16 16 16 16  .  .  .  .  .  .  .  . .

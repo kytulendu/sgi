@@ -1,0 +1,12 @@
+cmdLine=F640LOW/lowres-textured-fillrate-nofilter-test-z.cfg
+
+windowWidth=640, windowHeight=480, colorsBits=32, depthBits=24, windowFrame=0, clearBuffers=0, scene=3, trianglesCount=10, scene2_trianglesPixels=1000, scene3_planesCount=2, wireFrame=0, blending=0, csvFileName=gpubench_output.csv, csvHeaders=0, runSeconds=10, triangleStrip=0, textureFileName1=texture_l.bmp, textureFileName2=, testName=Lowres_Tx_Pixel_Fillrate_No_Filtering_Z, polygonNoColor=0, textureFilter=0, disableMultitexture=0, depthTestLogging=0, checkDephtTestFill=0, checkDephtTestWireframe=0
+
+GL_VENDOR: SGI
+GL_RENDERER: CRIME
+GL_VERSION: 1.1 Irix 6.5
+
+GL_EXTENSIONS:
+GL_EXT_abgr GL_EXT_blend_color GL_EXT_blend_logic_op GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_convolution GL_EXT_copy_texture GL_EXT_histogram GL_EXT_packed_pixels GL_EXT_polygon_offset GL_EXT_subtexture GL_EXT_texture GL_EXT_texture3D GL_EXT_texture_object GL_EXT_vertex_array GL_INGR_interlace_read GL_SGI_color_matrix GL_SGI_color_table GL_SGI_texture_color_table GL_SGIS_texture_color_mask GL_SGIS_texture_edge_clamp GL_SGIX_interlace GL_SGIX_texture_scale_bias 
+
+FPS 59.58

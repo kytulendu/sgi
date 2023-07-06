@@ -1,3 +1,8 @@
 FULLHOUSE IO BACKPLANE P/N 030-8110-003
 =======================================
 - 93CS56N
+
+R4400 CPU board
+===============
+PM5_MARCH210A_030-0808-001_RevJ
+- AMD MARCH210A-7JC, idk if this chip can be read

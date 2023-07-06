@@ -8,4 +8,26 @@ IP53_WKSTN_INTFC
 
 SNOWBALL_EDG
 ============
-- Dallas DS2505, 6 pin chip at A7E2 near J2
+- Dallas DS2505, 6 pin TSOC package at A7E2 near J2
+
+ODYSSEY_DUAL_CHANNEL
+====================
+- Xilinx XC95288XL-TQ114B, CPLD
+
+ODY128B1_2
+==========
+- Xilinx XC18V01SC, Configuration PROM, SO20 package
+
+PCI_SERIAL_IO
+=============
+030-1657-003_RevA
+- Dallas DS2505, 6 pin TSOC package
+
+RADICAL
+=======
+030-1649-001_RevB
+- ALTERA EPM7064LC44-15, CPLD
+
+IO9
+===
+- Xilinx XC18V04, Configuration PROM, PC44 package

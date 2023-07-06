@@ -2,7 +2,7 @@ khral@ZHAITAN % hinv
 CPU: MIPS R5000 Processor Chip Revision: 10.0
 FPU: MIPS R5000 Floating Point Coprocessor Revision: 10.0
 1 300 MHZ IP32 Processor
-Main memory size: 576 Mbytes
+Main memory size: 1024 Mbytes
 Secondary unified instruction/data cache size: 1 Mbyte on Processor 0
 Instruction cache size: 32 Kbytes
 Data cache size: 32 Kbytes

@@ -9,3 +9,4 @@ Table of content
 - [Alias|Wavefront The Advanced Visualizer notes](../master/tav.md)
 - [SGI O2 memory upgrade - The hard way](../master/o2_mem.md)
 - [Compile Blender 2.49b with sgug-rse - The Tutorial](../master/blender249_compile.md)
+- [SGI Indigo 2 power supply](../master/indigo2_psu.md)

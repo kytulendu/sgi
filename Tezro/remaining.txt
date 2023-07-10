@@ -2,10 +2,6 @@ IP53_4CPU
 =========
 - AMD L642DU12RI 128 Megabit (8 M x 16-Bit) Flash memory, BGA
 
-IP53_WKSTN_INTFC
-================
-- AM29LV160D1-120EC
-
 SNOWBALL_EDG
 ============
 - Dallas DS2505, 6 pin TSOC package at A7E2 near J2

@@ -43,23 +43,23 @@ In ~/.aw_custom_env in my profile
     setenv AW_PROD_ENV    tavipr
 #endif
 
-setenv WF_PROJ_PATH $HOME/projects/Sample
-setenv WF_PRJ_DIR $HOME/projects
-#setenv WF_TABLET wacom
+setenv WF_PROJ_PATH     $HOME/projects/Sample
+setenv WF_PRJ_DIR       $HOME/projects
+#setenv WF_TABLET        wacom
 
-# setenv WF_DEVICES ~/devices
-# setenv WF_CMD_DIR ~/projects/bin
+# setenv WF_DEVICES       ~/devices
+# setenv WF_CMD_DIR       ~/projects/bin
 # addpath $WF_CMD_DIR/bin
 
-setenv WF_AUDIO_DIR    $WF_PROJ_PATH/audio
+setenv WF_AUDIO_DIR     $WF_PROJ_PATH/audio
 setenv WF_CAD_DIR       $WF_PROJ_PATH/cad
 setenv WF_CFG_DIR       $WF_PROJ_PATH/cfg
 setenv WF_IMG_DIR       $WF_PROJ_PATH/images
 setenv WF_OBJ_DIR       $WF_PROJ_PATH/objects
-setenv WF_SHADER_DIR       $WF_PROJ_PATH/shaders
-setenv WF_SCMP_DIR       $WF_PROJ_PATH/scene
+setenv WF_SHADER_DIR    $WF_PROJ_PATH/shaders
+setenv WF_SCMP_DIR      $WF_PROJ_PATH/scene
 setenv WF_TEX_DIR       $WF_PROJ_PATH/textures
-setenv WF_TRAJ_DIR       $WF_PROJ_PATH/traj
+setenv WF_TRAJ_DIR      $WF_PROJ_PATH/traj
 setenv WF_TMP_DIR       /usr/tmp
 setenv WF_MTL_DIR       $WF_PROJ_PATH/colors.mtl
 ```

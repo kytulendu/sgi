@@ -1,0 +1,819 @@
+newmtl phongblack
+Ka 0.0000 0.0000 0.0000
+Kd 0.0500 0.0500 0.0500
+illum 1
+
+
+newmtl aocgold
+Ka 0.0000 0.0197 0.1000
+Kd 0.3000 0.2000 0.0000
+Ks 0.9000 0.8000 0.0000
+Ns 400.0000
+illum 3
+
+
+newmtl aocgold4
+Ka 0.0000 0.0197 0.1000
+Kd 0.3000 0.2000 0.0000
+Ks 0.9000 0.8000 0.0000
+Ns 200.0000
+illum 4
+
+
+newmtl shinygold
+Ka 0.0054 0.0276 0.0414
+Kd 0.6613 0.1900 0.0000
+Ks 1.0000 0.4278 0.0180
+Ns 1000.0000
+illum 3
+
+
+newmtl loblack2
+Ka 0.0000 0.0000 0.0000
+Kd 0.0100 0.0100 0.0100
+Ks 0.0651 0.0651 0.0651
+Ns 10.0000
+illum 2
+
+
+newmtl loblack3
+Ka 0.0100 0.0100 0.0100
+Kd 0.0100 0.0100 0.0100
+Ks 0.0100 0.0100 0.0100
+Ns 10.0000
+illum 2
+
+
+newmtl simpleblack
+Kd 0.0000 0.0000 0.0000
+illum 0
+
+
+newmtl golden
+Ka 0.8298 0.6180 0.2817
+Kd 0.9220 0.6867 0.3130
+Ks 0.2766 0.2060 0.0939
+Ns 450.0000
+illum 3
+
+
+newmtl neutral
+Ka 0.7624 0.6905 0.5856
+Kd 0.7624 0.6905 0.5856
+Ks 0.7624 0.6905 0.5856
+Ns 50.0000
+illum 2
+
+
+newmtl newtral
+Ka 0.0891 0.0807 0.0684
+Kd 0.3470 0.3143 0.2665
+Ks 0.6535 0.5919 0.5019
+Ns 20.2742
+illum 2
+
+
+newmtl rubber
+Ka 0.0050 0.0050 0.0050
+Kd 0.0200 0.0200 0.0200
+Ks 0.0900 0.0900 0.0900
+Ns 20.0000
+illum 2
+
+
+newmtl chrome
+Ka 0.1138 0.0963 0.0659
+Kd 0.1707 0.1444 0.0989
+Ks 0.5122 0.4332 0.2967
+Ns 500.0000
+illum 3
+
+
+newmtl glass
+Ka 0.0000 0.0000 0.0000
+Kd 0.0000 0.0000 0.1500
+Ks 0.9000 0.9000 0.9000
+d 0.3750
+Ns 150.0000
+illum 3
+
+
+newmtl glass4
+Ka 0.0000 0.0000 0.0000
+Kd 0.0000 0.0000 0.1500
+Ks 0.9000 0.9000 0.9000
+d 0.3750
+Ns 150.0000
+illum 4
+
+
+newmtl lowblack
+Ka 0.0000 0.0000 0.0000
+Kd 0.0100 0.0100 0.0100
+Ks 0.0651 0.0651 0.0651
+Ns 10.0000
+illum 2
+
+
+newmtl pureblack
+Kd 0.0000 0.0000 0.0000
+illum 0
+
+
+newmtl flatblack
+Kd 0.1000 0.1000 0.1000
+illum 0
+
+
+newmtl simplered
+Kd 0.4000 0.0000 0.0000
+illum 0
+
+
+newmtl simpleblue
+Kd 0.0000 0.0026 0.4000
+illum 0
+
+
+newmtl simplegold
+Kd 0.7024 0.4367 0.0156
+illum 0
+
+
+newmtl diffusedkgreen
+Ka 0.0000 0.0197 0.0000
+Kd 0.0000 0.0804 0.0000
+illum 1
+
+
+newmtl diffusegreen
+Ka 0.0000 0.2000 0.0000
+Kd 0.0000 0.4000 0.0000
+illum 1
+
+
+newmtl diffusewhite
+Ka 0.2000 0.2000 0.2000
+Kd 0.4000 0.4000 0.4000
+illum 1
+
+
+newmtl clearblue
+Ka 0.0000 0.0000 0.2000
+Kd 0.0000 0.0000 0.4000
+Ks 0.4967 0.7267 0.9951
+d 0.7996
+Ns 40.0000
+illum 2
+
+
+newmtl diffusegray
+Ka 0.0500 0.0500 0.0500
+Kd 0.1000 0.1000 0.1000
+illum 1
+
+
+newmtl diffusered
+Ka 0.2000 0.0000 0.0000
+Kd 0.4000 0.0000 0.0000
+illum 1
+
+
+newmtl molyred
+Ka 0.2000 0.0100 0.0000
+Kd 0.4000 0.0800 0.0000
+illum 1
+
+
+newmtl diffuseblue
+Ka 0.0000 0.0000 0.2000
+Kd 0.0000 0.0000 0.4000
+illum 1
+
+
+newmtl diffuseyellow
+Ka 0.2000 0.2000 0.0000
+Kd 0.4000 0.4000 0.0000
+illum 1
+
+
+newmtl simpleyellow
+Kd 0.9560 0.5540 0.0131
+illum 0
+
+
+newmtl flameyellow
+Kd 0.7000 0.4014 0.0000
+d 0.8996
+illum 0
+
+
+newmtl diffusegold
+Ka 0.1844 0.1373 0.0626
+Kd 0.3688 0.2747 0.1252
+illum 1
+
+
+newmtl phongred
+Ka 0.2000 0.0000 0.0000
+Kd 0.4000 0.0000 0.0000
+Ks 1.0892 0.9865 0.8365
+Ns 40.0000
+illum 2
+
+
+newmtl phongblue
+Ka 0.0000 0.0000 0.2000
+Kd 0.0000 0.0000 0.4000
+Ks 0.4967 0.7267 0.9951
+Ns 40.0000
+illum 2
+
+
+newmtl phonggold
+Ka 0.1844 0.1373 0.0626
+Kd 0.3688 0.2747 0.1252
+Ks 0.9220 0.6867 0.3130
+Ns 40.0000
+illum 2
+
+
+newmtl reflectred
+Ka 0.2000 0.0000 0.0000
+Kd 0.4000 0.0000 0.0000
+Ks 1.0892 0.9865 0.8365
+Ns 400.0000
+illum 3
+
+
+newmtl reflectblue
+Ka 0.0000 0.0000 0.2000
+Kd 0.0000 0.0000 0.4000
+Ks 1.0892 0.9865 0.8365
+Ns 400.0000
+illum 3
+
+
+newmtl reflectgold
+Ka 0.1844 0.1373 0.0626
+Kd 0.3688 0.2747 0.1252
+Ks 0.8298 0.6180 0.2817
+Ns 400.0000
+illum 3
+
+
+newmtl shirt
+Ka 0.0000 0.0000 0.0000
+Kd 0.0761 0.0400 0.0022
+Ks 0.3795 0.3094 0.0552
+Ns 74.5993
+illum 3
+
+
+newmtl brass1
+Ka 0.1878 0.1296 0.0550
+Kd 0.1878 0.1296 0.0550
+Ks 0.3756 0.2591 0.1100
+Ns 200.0000
+illum 3
+
+
+newmtl pedestal
+Ka 0.2586 0.1732 0.0707
+Kd 0.2586 0.1732 0.0707
+Ks 0.5171 0.3463 0.1414
+Ns 200.0000
+illum 3
+
+
+newmtl brass5
+Ka 0.2586 0.1732 0.0707
+Kd 0.2586 0.1732 0.0707
+Ks 0.5171 0.3463 0.1414
+Ns 200.0000
+illum 3
+
+
+newmtl bronze
+Ka 0.2560 0.1781 0.0728
+Kd 0.2560 0.1781 0.0728
+Ks 0.5121 0.3562 0.1456
+Ns 75.0000
+illum 3
+
+
+newmtl carbon
+Ka 0.0725 0.0653 0.0547
+Kd 0.0007 0.0007 0.0005
+illum 1
+
+
+newmtl china_clay
+Ka 0.1118 0.1009 0.0640
+Kd 0.2012 0.1815 0.1151
+illum 1
+
+
+newmtl copper
+Ka 0.3281 0.1671 0.0548
+Kd 0.3281 0.1671 0.0548
+Ks 0.6561 0.3343 0.1097
+Ns 200.0000
+illum 3
+
+
+newmtl gold
+Ka 0.2305 0.1717 0.0783
+Kd 0.4610 0.3433 0.1565
+Ks 0.9220 0.6867 0.3130
+Ns 300.0000
+illum 3
+
+
+newmtl ambient_ident
+Kd 1.0892 0.9865 0.8365
+illum 0
+
+
+newmtl portraitback
+Kd 0.4814 0.4809 0.4802
+illum 0
+
+
+newmtl ident
+Ka 1.0892 0.9865 0.8365
+Kd 1.0892 0.9865 0.8365
+Ks 1.0892 0.9865 0.8365
+Ns 10.2635
+illum 2
+
+
+newmtl iron_oxide
+Ka 0.0221 0.0095 0.0039
+Kd 0.0663 0.0284 0.0118
+Ks 0.0663 0.0284 0.0118
+Ns 10.0000
+illum 2
+
+
+newmtl lunar_dust
+Ka 0.0140 0.0121 0.0094
+Kd 0.0420 0.0363 0.0282
+Ks 0.0350 0.0302 0.0235
+Ns 10.0000
+illum 2
+
+
+newmtl lunar_rock
+Ka 0.0119 0.0101 0.0077
+Kd 0.0358 0.0303 0.0232
+Ks 0.0298 0.0253 0.0194
+Ns 10.0000
+illum 2
+
+
+newmtl nickel
+Ka 0.5692 0.4814 0.3296
+Kd 0.5692 0.4814 0.3296
+Ks 0.5692 0.4814 0.3296
+Ns 100.0000
+illum 3
+
+
+newmtl obsidian
+Ka 0.0000 0.0000 0.0000
+Kd 0.0000 0.0000 0.0000
+Ks 0.0472 0.0427 0.0345
+Ns 300.0000
+illum 3
+
+
+newmtl olivedrab
+Ka 0.0242 0.0209 0.0122
+Kd 0.0363 0.0314 0.0182
+illum 1
+
+
+newmtl ruby
+Ka 0.0074 0.0052 0.0045
+Kd 0.0074 0.0052 0.0045
+Ks 0.7415 0.5156 0.4547
+Ns 200.0000
+illum 3
+
+
+newmtl silver
+Ka 0.2999 0.2676 0.2186
+Kd 0.3998 0.3568 0.2914
+Ks 0.9996 0.8920 0.7286
+Ns 75.0000
+illum 3
+
+
+newmtl stainless
+Ka 0.0936 0.0821 0.0630
+Kd 0.1404 0.1231 0.0944
+Ks 0.4679 0.4104 0.3148
+Ns 300.0000
+illum 3
+
+
+newmtl teflon
+Ka 0.2221 0.2071 0.1763
+Kd 0.2931 0.2734 0.2328
+Ks 0.1776 0.1657 0.1411
+Ns 10.0000
+illum 2
+
+
+newmtl tin
+Ka 0.1958 0.1756 0.1264
+Kd 0.2584 0.2318 0.1669
+Ks 0.3916 0.3512 0.2528
+Ns 50.0000
+illum 3
+
+
+newmtl tungsten
+Ka 0.1364 0.1115 0.0855
+Kd 0.1801 0.1472 0.1129
+Ks 0.2729 0.2231 0.1711
+Ns 50.0000
+illum 3
+
+
+newmtl aocred
+Ka 0.0000 0.0000 0.0000
+Kd 0.8000 0.0000 0.0000
+Ks 1.0000 0.3000 0.3000
+Ns 300.0000
+illum 2
+
+
+newmtl aocgreen
+Ka 0.0000 0.0000 0.0000
+Kd 0.0000 0.1000 0.0000
+Ks 0.3000 1.0000 0.3000
+Ns 300.0000
+illum 2
+
+
+newmtl aocyellow
+Ka 0.0000 0.0000 0.0000
+Kd 0.4500 0.2600 0.0000
+Ks 1.0000 0.9000 0.4000
+Ns 300.0000
+illum 2
+
+
+newmtl aocblue
+Ka 0.0000 0.0000 0.0000
+Kd 0.0000 0.0000 0.8000
+Ks 0.3000 0.3000 1.0000
+Ns 700.0000
+illum 2
+
+
+newmtl midnightblue
+Ka 0.0000 0.0000 0.0000
+Kd 0.0000 0.0000 0.1000
+Ks 0.3000 0.3000 1.0000
+Ns 700.0000
+illum 2
+
+
+newmtl aocblack
+Ka 0.0000 0.0000 0.0000
+Kd 0.0000 0.0000 0.0000
+Ks 1.0892 0.9865 0.8365
+Ns 600.0000
+illum 2
+
+
+newmtl newrubber
+Ka 0.0300 0.0300 0.0300
+Kd 0.0400 0.0400 0.0400
+Ks 0.0900 0.0900 0.0900
+Ns 20.0000
+illum 2
+
+
+newmtl simplewhite
+Kd 1.0000 1.0000 1.0000
+illum 0
+
+
+newmtl reflwhite
+Ka 1.0000 1.0000 1.0000
+Kd 1.0000 1.0000 1.0000
+Ks 0.0000 0.5000 0.0000
+Ns 500.0000
+illum 3
+
+
+newmtl phonggray
+Ka 0.0500 0.0400 0.0300
+Kd 0.0600 0.0500 0.0400
+Ks 0.0700 0.0600 0.0500
+Ns 10.0000
+illum 2
+
+
+newmtl shinygray
+Ka 0.0500 0.0400 0.0300
+Kd 0.0600 0.0500 0.0400
+Ks 0.0700 0.0600 0.0500
+Ns 800.0000
+illum 3
+
+
+newmtl phongwhite
+Ka 0.2000 0.2000 0.2000
+Kd 0.5000 0.5000 0.5000
+Ks 1.0892 0.9865 0.8365
+Ns 40.0000
+illum 2
+
+
+newmtl reflectgray
+Ka 0.0500 0.0400 0.0300
+Kd 0.0600 0.0500 0.0400
+Ks 0.0700 0.0600 0.0500
+Ns 400.0000
+illum 3
+
+
+newmtl reflect_red
+Ka 0.2000 0.0000 0.0000
+Kd 0.4000 0.0000 0.0000
+Ks 1.0892 0.9865 0.8365
+Ns 400.0000
+illum 3
+
+
+newmtl pictgold
+Ka 0.0461 0.0343 0.0157
+Kd 0.2766 0.2060 0.0939
+Ks 1.3830 1.0300 0.4695
+Ns 400.0000
+illum 3
+
+
+newmtl chinaclay
+Ka 0.1118 0.1009 0.0640
+Kd 0.2012 0.1815 0.1151
+illum 1
+
+
+newmtl obsidian2
+Ka 0.0283 0.0256 0.0207
+Kd 0.0283 0.0256 0.0207
+Ks 0.0472 0.0427 0.0345
+Ns 300.0000
+illum 3
+
+
+newmtl stonered
+Ka 0.5384 0.0000 0.0000
+Kd 0.7135 0.0090 0.0090
+Ks 1.0000 0.0178 0.0178
+Ns 300.0000
+illum 2
+
+
+newmtl simpleskyblue
+Ka 0.0709 0.3584 0.4000
+Kd 0.0432 0.3549 0.4000
+illum 1
+
+
+newmtl simplegray
+Kd 0.1000 0.1000 0.1000
+illum 0
+
+
+newmtl simpledkgray
+Kd 0.0201 0.0201 0.0201
+illum 0
+
+
+newmtl mattedkgray
+Ka 0.0000 0.0000 0.0000
+Kd 0.0027 0.0027 0.0027
+Ks 0.0097 0.0097 0.0097
+Ns 5.0151
+illum 2
+
+
+newmtl diffusedkred
+Ka 0.0270 0.0000 0.0000
+Kd 0.2125 0.0000 0.0000
+illum 1
+
+
+newmtl phonggreen
+Ka 0.0000 0.0565 0.0000
+Kd 0.0000 0.2538 0.0000
+Ks 0.0284 0.9625 0.0033
+Ns 10.0000
+illum 2
+
+
+newmtl phongbrown
+Ka 0.0154 0.0110 0.0055
+Kd 0.0457 0.0136 0.0054
+Ks 0.0804 0.0372 0.0176
+Ns 50.0000
+illum 2
+
+
+newmtl windowblue
+Ka 0.0055 0.0053 0.0132
+Kd 0.1132 0.1616 0.2278
+Ks 0.0633 0.8952 0.9972
+Ns 200.3602
+illum 2
+
+
+newmtl clearred
+Ka 0.2000 0.0000 0.0000
+Kd 0.4000 0.0000 0.0000
+Ks 1.0892 0.9865 0.8365
+d 0.7995
+Ns 40.0000
+illum 2
+
+
+newmtl shadow
+Ka 0.0000 0.0000 0.0000
+Kd 0.0154 0.0125 0.0106
+d 0.8033
+illum 1
+
+
+newmtl windowblue2
+Ka 0.0055 0.0053 0.0132
+Kd 0.1132 0.1616 0.2278
+Ks 0.0633 0.8952 0.9972
+d 0.5595
+Ns 200.3602
+illum 2
+
+
+newmtl simpleblue2
+Kd 0.0024 0.0091 0.1389
+illum 0
+
+
+newmtl coolblue
+Ka 0.0453 0.0665 0.2169
+Kd 0.1658 0.3838 0.3793
+Ks 0.4728 0.7182 0.7566
+Ns 300.0000
+illum 2
+
+
+newmtl leather
+Ka 0.0565 0.0025 0.0001
+Kd 0.1367 0.0055 0.0000
+Ks 0.1758 0.0234 0.0054
+Ns 9.6109
+illum 2
+
+
+newmtl shinyident
+Ka 1.0892 0.9865 0.8365
+Kd 1.0892 0.9865 0.8365
+Ks 1.0892 0.9865 0.8365
+Ns 60.3449
+illum 2
+
+
+newmtl opaqueglass
+Ka 0.0000 0.0000 0.0000
+Kd 0.0871 0.0871 0.1563
+Ks 0.9000 0.9000 0.9000
+Ns 168.1586
+illum 3
+
+
+newmtl grassback
+Ka 0.0652 0.0652 0.0652
+Kd 0.1324 0.1324 0.1324
+illum 1
+
+
+newmtl adobe
+Ka 0.9539 0.3201 0.0647
+Kd 0.9105 0.3919 0.1959
+Ks 0.9972 0.7433 0.3724
+Ns 10.2635
+illum 2
+
+
+newmtl simpledkgreen
+Kd 0.0031 0.0240 0.0031
+illum 0
+
+
+newmtl simplegreen
+Kd 0.0000 0.4000 0.0000
+illum 0
+
+
+newmtl diffuseneutral
+Ka 0.7624 0.6905 0.5856
+Kd 0.7624 0.6905 0.5856
+illum 1
+
+
+newmtl treeback1
+Ka 0.0869 0.0823 0.0756
+Kd 0.7624 0.6905 0.5856
+illum 1
+
+
+newmtl treeback2
+Ka 0.0869 0.0823 0.0756
+Kd 0.3145 0.3125 0.3096
+illum 1
+
+
+newmtl treeback3
+Ka 0.0869 0.0823 0.0756
+Kd 0.1324 0.1316 0.1304
+illum 1
+
+
+newmtl treeback4
+Ka 0.0869 0.0823 0.0756
+Kd 0.9972 0.2216 0.0000
+illum 1
+
+
+newmtl lavender.1
+Ka 0.0089 0.0009 0.0042
+Kd 0.0587 0.0111 0.0336
+illum 1
+
+
+newmtl ivory.1
+Ka 0.1454 0.1349 0.1000
+Kd 0.3318 0.3279 0.1649
+illum 1
+
+
+newmtl floor
+Ka 0.1454 0.1349 0.1000
+Kd 0.3318 0.3279 0.1649
+illum 1
+
+
+newmtl window0
+Ka 0.0000 0.0000 0.0000
+Kd 0.0025 0.0025 0.0025
+Ks 0.4620 0.4997 0.5182
+Ns 700.0000
+illum 3
+
+
+newmtl window1
+Ka 0.0036 0.0036 0.0036
+Kd 0.5451 0.5819 0.1235
+Ks 0.4620 0.4997 0.5182
+Ns 700.0000
+illum 3
+
+
+newmtl window2
+Ka 0.2458 0.2458 0.2458
+Kd 0.3519 0.3506 0.3769
+Ks 0.4620 0.4997 0.5182
+Ns 700.0000
+illum 3
+
+
+newmtl window3
+Ka 0.0239 0.0236 0.0197
+Kd 0.1029 0.1084 0.0904
+Ks 0.4620 0.4997 0.5182
+Ns 700.0000
+illum 3
+
+
+newmtl window4
+Ka 0.4157 0.4157 0.1378
+Kd 0.2279 0.2262 0.3242
+Ks 0.4620 0.4997 0.5182
+Ns 700.0000
+illum 3
+
+
+newmtl dullgold
+Ka 0.0221 0.0095 0.0039
+Kd 0.0663 0.0284 0.0118
+Ks 0.4575 0.1960 0.0815
+Ns 96.0194
+illum 3
+
+

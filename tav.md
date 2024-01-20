@@ -90,6 +90,10 @@ TAV manuals
 There is few documentation or tutorial of this software exist online :<
 If you have TAV manual or training VHS, please consider scan/digitize it and upload it to archive.org.
 
+Simple tutorial modeling a steam shovel, materials and light definition files from the tutorial are in [wavefront](../master/wavefront/) directory.
+
+[Introduction to Wavefront](https://web.archive.org/web/19961225031932/http://www.cc.gatech.edu/gvu/people/Phd/Reid.Harmon/wave/)
+
 Below listed the videos that show usage of TAV that I have found on the internet.
 
 [Wavefront Pictureout - SGI Demo](https://www.youtube.com/watch?v=eZr0yU76leM)

@@ -1,7 +1,7 @@
 IO Raiser Card
 ==============
+- Dallas DS2502, 3 pin TO-92 package
 
-
-CPU board
-=========
-
+RM5200 300Mhz CPU board
+=======================
+- XC1765ELS08C

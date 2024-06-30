@@ -1,7 +1,8 @@
 Mounting SGI XFS hard drive on modern Linux
 ===========================================
 
-The disk need to be formatted with IRIX 6.5.23 or heigher (preferbly IRIX 6.5.30).
+The disk need to be formatted with IRIX 6.5.23 or heigher (preferbly IRIX 6.5.30) for XFS v2, with 4096 bytes block size.
+
 You can use the disk formatted with newer version of IRIX with older version,
 for example, using disk formatted with IRIX 6.5.30 with IRIX 6.5.22 (even install IRIX 6.5.22 on it)
 

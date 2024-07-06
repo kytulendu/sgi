@@ -12,23 +12,24 @@ The result is it compile and link without error and the binary works too! \OwO/
 Here is the step I took to compile Blender 2.49b with sgug-rse, the compile step I based from [blender249 AUR](https://aur.archlinux.org/packages/blender249/)
 
 I assume you know a bit on how to compile stuff from source.
-Sorry for the picture isn't screen capture, as it a trouble to transfer screenshot with secondary SCSI HDD to/from my PC.
-I didn't get my Tezro on network yet.
-
-Note that I didn't include OpenEXR support due to v2.5.6 give compile error with sgug-rse.
-There seems to be OpenEXR package in wip branch of sgug-rse tho but I have no time to look into the wip branch yet. :<
 
 Install sgug-rse
 ----------------
 
-Install sgug-rse-0.0.7beta on your SGI using given instructions from [https://github.com/sgidevnet/sgug-rse](https://github.com/sgidevnet/sgug-rse)
+Install sgug-rse-0.0.7beta on your SGI using given instructions from [https://github.com/sgidevnet/sgug-rse](https://github.com/sgidevnet/sgug-rse), then setup [RSE Cloud Repo](https://github.com/sgidevnet/sgug-rse/wiki#add-the-cloud-repo).
 
-on the step 8 "install packages", choose "Install everything" step or just install what you need.
-
-After finished install, remove xorg-x11-proto-devel package to prevent errors during linking.
+After finished install, install these packages.
 
 ```bash
-sudo tdnf remove xorg-x11-proto-devel
+sudo tdnf install gcc gcc-c++ git autoconf automake cmake make python2-devel freetype-devel gettext-devel libiconv-devel libjpeg-turbo-devel libpng-devel libtiff-devel zlib-devel OpenEXR-devel
+```
+
+Due to sgug-rse's `glxtokens.h` didn't have some of SGI's GLX defines, it will result in `GLX_HYPERPIPE_PIPE_NAME_LENGTH_SGIX` compile error.
+
+Remove sgug-rse's `glxtokens.h`.
+
+```bash
+sudo rm /usr/sgug/include/GL/glxtokens.h
 ```
 
 To use sgug-rse, run this command in the terminal
@@ -39,20 +40,17 @@ To use sgug-rse, run this command in the terminal
 
 Compile and install libSDL
 --------------------------
+I'm using SDL 1.2.15 from https://github.com/libsdl-org/SDL-1.2/
 
-I'm using SDL 1.2.15 from [https://github.com/libsdl-org/SDL-1.2/](https://github.com/libsdl-org/SDL-1.2/)
-
-```bash
 cd SDL-1.2.15
 ./autogen.sh
 ./configure
 make && make install
-```
 
 Compile and install OpenAL
 --------------------------
 
-I'm using source code from Nekoware since it was already avaliable on my Tezro
+I'm using source code from Nekoware since it was already available on my Tezro
 
 ```bash
 cd openal-1.1/linux
@@ -64,46 +62,7 @@ make && make install
 Prepairing Blender 2.49b source code
 ------------------------------------
 
-Download and extract Blender 2.49b source code from [https://download.blender.org/source/blender-2.49b.tar.gz](https://download.blender.org/source/blender-2.49b.tar.gz)
-
-Download blender249py27_gcc9_all.patch from [https://aur.archlinux.org/cgit/aur.git/tree/?h=blender249](https://aur.archlinux.org/cgit/aur.git/tree/?h=blender249)
-
-and put the patch into extracted blender-2.49b directory.
-
-Download blender-2.49b-15.fc15.src.rpm from [https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/15/Fedora/source/SRPMS/blender-2.49b-15.fc15.src.rpm](https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/15/Fedora/source/SRPMS/blender-2.49b-15.fc15.src.rpm)
-
-and extract the rpm file using this command
-
-```bash
-bsdtar -xvf blender-2.49b-15.fc15.src.rpm
-```
-
-put blender-2.49b-uid.patch and blender-2.49b-cve.patch into extracted blender-2.49b directory.
-
-```bash
-cd blender-2.49b
-
-# patch blender 2.49b for newer gcc and python
-dos2unix extern/bullet2/src/BulletSoftBody/btSoftBodyInternals.h
-dos2unix source/gameengine/Ketsji/KX_PolygonMaterial.cpp
-patch -Np1 -i blender249py27_gcc9_all.patch
-patch -Np1 -i blender-2.49b-uid.patch
-patch -Np1 -i blender-2.49b-cve.patch
-```
-
-Edit blender-2.49b/intern/elbeem/intern/utilities.cpp at line 51, change
-
-```c++
-return (getElbeemState>=0);
-```
-
-to
-
-```c++
-return (getElbeemState()>=0);
-```
-
-This will finish preparing the source code, or alternately, use the already patched code from my github repo [https://github.com/kytulendu/blender-2.49b](https://github.com/kytulendu/blender-2.49b)
+Use the already patched code from my github repo [https://github.com/kytulendu/blender-2.49b](https://github.com/kytulendu/blender-2.49b)
 
 Compile Blender 2.49b
 ---------------------
@@ -115,18 +74,18 @@ mkdir build && cd build
 
 # change to -march=mips3 or -march=mips4 to match your machine
 cmake \
-    -DCMAKE_EXE_LINKER_FLAGS:STRING="-lmoviefile -lmovieplay -ldmedia -lGL -lGLcore -lX11 -ldl -lpthread -Wl,--allow-shlib-undefined" \
-    -DCMAKE_CXX_FLAGS:STRING="-O2 -march=mips4 -fcommon -fpermissive" \
-    -DCMAKE_C_FLAGS:STRING="-O2 -march=mips4 -fcommon" \
+    -DCMAKE_EXE_LINKER_FLAGS:STRING="-lmoviefile -ldmedia -lX11 -lGL -lGLcore -lGLU -ldl -lpthread -Wl,-rpath-link=/usr/lib32 -Wl,-rpath=/usr/lib32:/usr/sgug/lib32 -Wl,--allow-shlib-undefined" \
+    -DCMAKE_CXX_FLAGS:STRING="-O2 -march=mips3 -g" \
+    -DCMAKE_C_FLAGS:STRING="-O2 -march=mips3 -g" \
     -DPYTHON_EXECUTABLE:PATH=/usr/sgug/bin/python2 \
     -DPYTHON_LIBRARY:PATH=/usr/sgug/lib32/libpython2.7.so \
     -DPYTHON_INCLUDE_DIR:PATH=/usr/sgug/include/python2.7 \
     -DFREETYPE_INC:PATH=/usr/sgug/include/freetype2 \
     -DFREETYPE_LIB:PATH=/usr/sgug/lib32/libfreetype.so.6 \
-    -DOpenGL_GL_PREFERENCE:STRING="LEGACY" \
+    -DOPENEXR_INC:PATH=/usr/sgug/include/OpenEXR \
     -DWITH_OPENMP:BOOL=ON \
     -DWITH_OPENJPEG:BOOL=ON \
-    -DWITH_OPENEXR:BOOL=OFF \
+    -DWITH_OPENEXR:BOOL=ON \
     -DWITH_PLAYER:BOOL=ON \
     ../
 

@@ -9,7 +9,7 @@ It took me sometimes with a lots of trial and errors as there aren't any documen
 
 The result is it compile and link without error and the binary works too! \OwO/
 
-Here is the step I took to compile Blender 2.49b with sgug-rse, the compile step I based from [blender249 AUR](https://aur.archlinux.org/packages/blender249/)
+Here is the step I took to compile Blender 2.49b with sgug-rse, the compile step I based from [blender249 AUR](https://aur.archlinux.org/cgit/aur.git/?h=blender249/)
 
 I assume you know a bit on how to compile stuff from source.
 
@@ -42,10 +42,12 @@ Compile and install libSDL
 --------------------------
 I'm using SDL 1.2.15 from https://github.com/libsdl-org/SDL-1.2/
 
-cd SDL-1.2.15
+```bash
+cd SDL-1.2
 ./autogen.sh
 ./configure
 make && make install
+```
 
 Compile and install OpenAL
 --------------------------

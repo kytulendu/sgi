@@ -1,4 +1,4 @@
-khral@KRALKATORRIK % hinv
+khral@kralkatorrik % hinv
 CPU: MIPS R4400 Processor Chip Revision: 6.0
 FPU: MIPS R4000 Floating Point Coprocessor Revision: 0.0
 1 250 MHZ IP22 Processor
@@ -22,7 +22,7 @@ Integral Ethernet: ec0, version 1
 Iris Audio Processor: version A2 revision 1.1.0
 EISA bus: adapter 0
 
-khral@KRALKATORRIK % /usr/gfx/gfxinfo
+khral@kralkatorrik % /usr/gfx/gfxinfo
 Graphics board 0 is "GR2" graphics.
 	Managed (":0.0") 1280x1024 
 	8 GEs, 2 REs, 24 bitplanes, 4 auxplanes, 4 cidplanes, Z-buffer
@@ -30,7 +30,7 @@ Graphics board 0 is "GR2" graphics.
 	HQ2.1 rev A, GE7 rev B,  RE3.1 rev A, VC1 rev B, MC rev C
 	unknown, assuming 19" monitor
 
-khral@KRALKATORRIK % glxinfo
+khral@kralkatorrik % glxinfo
 display: :0.0
 server glx vendor string: SGI
 server glx version string: 1.3 Irix 6.5

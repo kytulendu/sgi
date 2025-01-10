@@ -1,4 +1,4 @@
-khral@JORMAG % hinv
+khral@jormag % hinv
 4 800 MHZ IP35 Processors
 CPU: MIPS R16000 Processor Chip Revision: 2.2
 FPU: MIPS R16010 Floating Point Chip Revision: 2.2
@@ -27,7 +27,7 @@ XT-DIGVID Multi-standard Digital Video: controller 0, unit 0, version 0x0
 IOC3/IOC4 external interrupts: 1
 Dual Channel Display
 
-khral@JORMAG % /usr/gfx/gfxinfo
+khral@jormag % /usr/gfx/gfxinfo
 Graphics board 0 is "ODYSSEY" graphics.
 	Managed (":0.0") 1600x1024 
 	BUZZ version B.2
@@ -41,7 +41,7 @@ Graphics board 0 is "ODYSSEY" graphics.
 	 Origin = (0,0)
 	 Video Output: 1600 pixels, 1024 lines, 60.00Hz (1600x1024_60_ds)
 
-khral@JORMAG % glxinfo
+khral@jormag % glxinfo
 display: :0.0
 server glx vendor string: SGI
 server glx version string: 1.3 Irix 6.5

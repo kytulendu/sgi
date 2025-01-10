@@ -4,6 +4,7 @@ Contain bits and informations about SGI and it's software.
 
 Table of content
 ----------------
+- [Alias|Wavefront PowerAnimator 9.0 startup crash with virtual memory error fix](../master/alias9_crash_fix.md)
 - [Alias|Wavefront The Advanced Visualizer notes](../master/tav.md)
 - [Compile Blender 2.49b with sgug-rse - The Tutorial](../master/blender249_compile.md)
 - [Mounting SGI XFS hard drive on modern Linux](../master/mount_sgi_disk.md)

@@ -1,4 +1,22 @@
-R4400 CPU board
-===============
+R4400 250Mhz CPU board
+======================
+- AMD MARCH210A-7JC
 PM5_MARCH210A_030-0808-001_RevJ
-- AMD MARCH210A-7JC, idk if this chip can be read
+
+IP22 030-8225-008
+=================
+- PALs/GALs on motherboard, 6 chips.
+U11, U22, U24, U62, U67, U107
+
+GR3-XZ
+======
+GR5 Board 030-8223-003
+- PAL16L8-7JC, U1
+
+VB2 Board 030-8105-006
+- U25
+
+MG10
+====
+MG10 Solid Impact 030-0786-004
+- U34

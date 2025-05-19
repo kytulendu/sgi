@@ -54,7 +54,7 @@ Physcial Disk
 
 Like with disk image, just with physical disk.
 
-    khral@AURENE:~$ sudo fdisk -l
+    khral@aurene:~$ sudo fdisk -l
     ...
     Disk /dev/sde: 68.37 GiB, 73407868928 bytes, 143374744 sectors
     Disk model: ST373307LC
@@ -72,8 +72,8 @@ Like with disk image, just with physical disk.
 
     Partition table entries are not in disk order.
 
-    khral@AURENE:~$ sudo losetup -o 136314880 /dev/loop0 /dev/sde
-    khral@AURENE:~$ sudo xfs_repair -L /dev/loop0
+    khral@aurene:~$ sudo losetup -o 136314880 /dev/loop0 /dev/sde
+    khral@aurene:~$ sudo xfs_repair -L /dev/loop0
     Phase 1 - find and verify superblock...
     Phase 2 - using internal log
             - zero log...
@@ -131,8 +131,8 @@ Like with disk image, just with physical disk.
             - moving disconnected inodes to lost+found ...
     Phase 7 - verify and correct link counts...
     done
-    khral@AURENE:~$ sudo mkdir /mnt/sgi
-    khral@AURENE:~$ sudo mount -t xfs /dev/loop0 /mnt/sgi
+    khral@aurene:~$ sudo mkdir /mnt/sgi
+    khral@aurene:~$ sudo mount -t xfs /dev/loop0 /mnt/sgi
 
 To unmount use these command
 

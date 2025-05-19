@@ -2,8 +2,9 @@ Mounting SGI XFS hard drive on modern Linux
 ===========================================
 
 **Warning:** While this method work for me to use it to mount and transfer files to/from my O2 HDD.
-Do use this method on disk image, data transfer disk or disk that didn't have important data on it only.
-I take no responsibility of data lost for this method.
+**This may cause data corruption from some difference in file system format between XFS v2 and modern XFS version.**
+Use this method on disk image, data transfer disk or disk that didn't have important data on it only.
+**I take no responsibility of any data lost for this method.**
 
 The disk need to be formatted with IRIX 6.5.23 or heigher (preferbly IRIX 6.5.30) for XFS v2, with 4096 bytes block size.
 
